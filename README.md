@@ -101,7 +101,3 @@ The testbench module is named `tb_cpu_full` (file `tb_cpu.v`). It exercises arit
 3. Set `tb_cpu_full` as the simulation top.
 4. If you want to run your own program, add `program.mem` to the simulation directory (or set `INIT_FILE`).
 5. Run Behavioral Simulation and inspect the console summary and waveforms.
-
-## Current scope and possible next steps
-
-This is a compact educational RTL project, not a pipelined or production-ready processor. Useful follow-up improvements include adding a committed example `program.mem`, defining the ISA in a separate document, adding assertions, and checking synthesis/lint results.

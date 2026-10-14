@@ -1,0 +1,55 @@
+# ---- Simulation output ----
+*.vcd
+*.fst
+*.lxt
+*.vvp
+*.out
+sim
+a.out
+*.wdb
+
+# ---- Vivado (project + generated files) ----
+*.jou
+*.log
+*.str
+*.backup.jou
+*.backup.log
+vivado*.jou
+vivado*.log
+vivado*.str
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.gen/
+.Xil/
+xsim.dir/
+webtalk*
+xelab.*
+xvlog.*
+xsim.*
+*.pb
+
+# ---- ModelSim / Questa / Verilator ----
+work/
+transcript
+vsim.wlf
+*.mpf
+*.mti
+obj_dir/
+
+# ---- Local-only inputs (machine-specific memory images) ----
+# Remove this line if you decide to commit a shared example program.mem
+program.mem
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
